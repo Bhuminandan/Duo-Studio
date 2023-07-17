@@ -1,0 +1,100 @@
+
+
+/* xs */
+/* @media (max-width: 475px){
+} */
+
+/* sm */
+/* @media (max-width: 640px){
+} */
+
+/* md */
+/* @media (max-width: 768px){ 
+  
+ } */
+
+/* lg */
+/* @media (max-width: 1024px){ 
+    
+ } */
+
+/* xL */
+/* @media (max-width: 1280px){ 
+ } */
+
+/* 2xL */
+/* @media (max-width: 1536px){ 
+    
+ } */
+
+
+/* MOBILE FIRST APPROCH */
+ 
+
+.section{
+    margin-top: 5rem;
+}
+
+.active{
+  padding: 2px;
+  border-bottom: 1px solid var(--clr-light);
+}
+
+/* xs 
+
+(max-width:475px):this is the condition within the media query. 
+It specifies that the following CSS rules will be applied 
+only when the maximum width of the viewport reaches 
+or exceeds 475 pixels.
+
+---------------
+
+max-width: 475px;: This CSS rule sets the maximum width of elements 
+with the class .container to 475 pixels. It ensures that the elements will not expand beyond 
+this width even if there is more available space.
+*/
+@media (max-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 525px;
+
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+
+  .section{
+    margin-top: 10rem;
+}
+}
+
+/* xL */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1248px;
+  }
+}
+
+/* 2xL */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/styles.css">
+    <link rel="stylesheet" href="./components/styles/header.css">
+    <link rel="stylesheet" href="./components/styles/mobileNav.css">
+    <link rel="stylesheet" href="./components/styles/hero.css">
+    <link rel="stylesheet" href="./components/utils.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__logo">
+            <img src="https://d33wubrfki0l68.cloudfront.net/439bf938233c24af021ffe6d206cd42f546e1143/ff4ed/assets/logo.svg" alt="Logo">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="header__links"><a href="#" class="active">HOME</a></li>
+                <li class="header__links"><a href="#">WORK</a></li>
+                <li class="header__links"><a href="#">STUDIO</a></li>
+                <li class="header__links"><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header__circle"></div>
+        <div class="header__bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <nav>
+          <ul class="mobile-nav__menu">
+            <li>
+              <a href="#home" class="mobile-nav__link active">HOME</a>
+            </li>
+            <li>
+              <a href="#work" class="mobile-nav__link">WORK</a>
+            </li>
+            <li>
+              <a href="#studio" class="mobile-nav__link">STUDIO</a>
+            </li>
+            <li>
+              <a href="#contact" class="mobile-nav__link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- End of Mobile Navigation -->
+       <div class="main">
+        <section class="hero">
+            <div class="hero__text">
+                <h1>Digitally crafted</h1>
+                <h2>brand experiences</h2>
+            </div>
+            <div class="hero__video">
+                <video src="https://duo-studio.co/assets/home/Duo%20Reel--Desktop-reduced.mp4" autoplay loop muted></video>
+            </div>
+        </section>
+        <section class="hero container"></section>
+        <!-- <section></section>
+        <section></section>
+        <section></section>  -->
+     </div> 
+     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./components/src/script.js"></script>
+</body>
+</html>
